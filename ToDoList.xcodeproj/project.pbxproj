@@ -15,6 +15,9 @@
 		D65966BF1D2063A100601CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D65966BD1D2063A100601CCB /* LaunchScreen.storyboard */; };
 		D65966CA1D2063A100601CCB /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65966C91D2063A100601CCB /* ToDoListTests.m */; };
 		D65966D51D2063A100601CCB /* ToDoListUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D65966D41D2063A100601CCB /* ToDoListUITests.m */; };
+		D65966E41D20642F00601CCB /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65966E31D20642F00601CCB /* EditViewController.m */; };
+		D65966E71D20643E00601CCB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65966E61D20643E00601CCB /* DetailViewController.m */; };
+		D65966EA1D20645000601CCB /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D65966E91D20645000601CCB /* AddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		D65966D01D2063A100601CCB /* ToDoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65966D41D2063A100601CCB /* ToDoListUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListUITests.m; sourceTree = "<group>"; };
 		D65966D61D2063A200601CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D65966E21D20642F00601CCB /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		D65966E31D20642F00601CCB /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+		D65966E51D20643E00601CCB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		D65966E61D20643E00601CCB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		D65966E81D20645000601CCB /* AddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddViewController.h; sourceTree = "<group>"; };
+		D65966E91D20645000601CCB /* AddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				D65966B31D2063A100601CCB /* AppDelegate.m */,
 				D65966B51D2063A100601CCB /* ViewController.h */,
 				D65966B61D2063A100601CCB /* ViewController.m */,
+				D65966E21D20642F00601CCB /* EditViewController.h */,
+				D65966E31D20642F00601CCB /* EditViewController.m */,
+				D65966E51D20643E00601CCB /* DetailViewController.h */,
+				D65966E61D20643E00601CCB /* DetailViewController.m */,
+				D65966E81D20645000601CCB /* AddViewController.h */,
+				D65966E91D20645000601CCB /* AddViewController.m */,
 				D65966B81D2063A100601CCB /* Main.storyboard */,
 				D65966BB1D2063A100601CCB /* Assets.xcassets */,
 				D65966BD1D2063A100601CCB /* LaunchScreen.storyboard */,
@@ -270,6 +285,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D65966E71D20643E00601CCB /* DetailViewController.m in Sources */,
+				D65966E41D20642F00601CCB /* EditViewController.m in Sources */,
+				D65966EA1D20645000601CCB /* AddViewController.m in Sources */,
 				D65966B71D2063A100601CCB /* ViewController.m in Sources */,
 				D65966B41D2063A100601CCB /* AppDelegate.m in Sources */,
 				D65966B11D2063A100601CCB /* main.m in Sources */,
